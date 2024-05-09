@@ -88,3 +88,22 @@ footer{
   color: #FFFFFF;
   margin-top: 20px;
 }
+
+main{
+  width: 940px;
+  margin: 0 auto;
+}
+
+form{
+  margin: 40px 0;
+}
+
+form label{
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+form input{
+  display: block;
+}
