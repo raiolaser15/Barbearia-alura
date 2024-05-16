@@ -40,17 +40,23 @@
     </form>
 
     <input type="submit" value="Enviar o formulário">
-  <div>
-    <p> Como você prefere o nosso contato?</p>
+<fieldset>
+    <legend> Como você prefere o nosso contato?</legend>
 
-    <label for="radio-email"> <input type="radio" name="email" value="email"> Email</label>
-  </div>
-    <p> Qual horário você prefere ser atendido?</p>
+    <label for="radio-email"> <input type="radio"name="contato" value="email" id="radi-mail"> Email</label>
+    
+    <label for="radio-telefone"> <input type="radio" name="contato" value="telefone" id="radi-tel"> Telefone</label>
+
+    <label for="radio-whatsapp"> <input type="radio" name="contato" value="whatsapp" id="radi-zap"> Whatsapp</label>
+</fieldset>
+<fieldset>
+    <legend> Qual horário você prefere ser atendido?</legend>
  <select>
    <option> Manhã </option>
    <option> Tarde </option>
    <option> Noite </option>
  </select>
+</fieldset>
     
   </main>
   
