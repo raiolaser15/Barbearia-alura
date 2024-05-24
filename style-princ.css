@@ -125,9 +125,10 @@ form input{
   border: none;
   border-radious: 5px;
   transition: 1s all;
+  cursor: pointer;
 }
 
 .enviar:hover{
-  background: purple;
+  background: darkorange;
   transform: scale(1.2);
 }

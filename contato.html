@@ -27,20 +27,15 @@
     <form>
       <label for="nomeSobr">Nome e Sobrenome</label>
       <input type="text" id="nomeSobr" required> 
-    </form>
-    <form>
       
       <label for="email">Email</label>
       <input class="input-padrao" type="email" id="email" required placeholder="XXXXXX@gmail.com"> 
-      </form>
     
-    <form>
       <label for="telefone">Telefone</label>
       <input class="input-padrao" type="tel" id="telefone" required placeholder="(XX) X XXXX-XXXX"> 
-    </form>
 
     <label for="message">Mensagem </label>
-    <textarea class="input-padrao"</textarea>
+    <textarea class="input-padrao" id="mensagem" required placeholder="Como podemos ajudar?"></textarea>
 
 <fieldset>
     <legend> Como você prefere o nosso contato?</legend>
@@ -59,8 +54,11 @@
    <option> Noite </option>
  </select>
 </fieldset>
-    <input type="submit" value="Enviar o formulário" class="enviar">
+
+    <label><input class="checkbox" type="checkbox"> Gostaria de receber nossas ofertas por email?</label>
     
+    <input type="submit" value="Enviar o formulário" class="enviar">
+  </form>
   </main>
   
 <footer>
