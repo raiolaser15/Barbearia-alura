@@ -46,3 +46,25 @@ ul {
 .img-beneficios{
   width: 50%;
 }
+
+.titulo-princ:first-letter{
+  color: red;
+}
+
+p:first-line{
+  font-style: italic;
+}
+
+
+.titulo-princ:before{
+  content: "★";
+}
+
+.titulo-princ:after{
+  content: "★";
+}
+
+
+.item:first-child{
+  font-weight: bold;
+}
